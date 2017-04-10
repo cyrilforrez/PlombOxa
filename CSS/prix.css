@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+}
+
+footer {
+	width: 100%;
+	background-color: lightskyblue;
+}
+
+td {
+	text-align: center;
+}
+
+/*------------------------Ecran smartphone 360x640---------------------*/
+
+/*-------------------------HEADER---------------------------*/
+nav {
+	display: none;
+}
+
+i {
+	position: relative;
+	left: 5%;
+	margin-top: 3%;
+}
+
+h1 {
+
+	display: inline-block;
+	margin:2% 20%;
+}
+
+.logo { display: none;
+}
+
+header {
+	background-image: url(../img/logo2.jpg);
+}
+
+.search {
+	width: 30%;
+	margin: 0 0 3% 10%;
+}
+
+input {
+	width: 25%;
+	margin: 0 2% 3% 25%;
+}
+
+/*--------------------------------MAIN------------------------------------*/
+
+ table {
+    border-collapse: collapse;
+        margin: 15% auto;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*-------------------------------FOOTER--------------------------------*/
+
+.azerti {
+	display: inline-block;
+	margin: 0 4% 0 0;
+
+}
+
+.azert {
+	display: inline-block;
+	margin: 0 2% 0 1%
+}
