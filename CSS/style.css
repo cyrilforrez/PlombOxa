@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+}
+
+footer {
+	width: 100%;
+	background-color: lightskyblue;
+}
+
+
+/*------------------------Ecran smartphone 360x640---------------------*/
+
+/*-------------------------HEADER---------------------------*/
+nav {
+	display: none;
+}
+
+i {
+	position: relative;
+	left: 5%;
+	margin-top: 3%;
+}
+
+h1 {
+
+	display: inline-block;
+	margin:2% 20%;
+}
+
+.logo { display: none;
+}
+
+header {
+	height: 135px;
+	background-repeat: no-repeat;
+	background-image: url(../img/logo.png)
+}
+
+.search {
+	width: 30%;
+	margin: 0 0 3% 10%;
+}
+
+input {
+	width: 25%;
+	margin: 0 2% 3% 25%;
+}
