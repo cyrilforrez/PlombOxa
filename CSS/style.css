@@ -38,12 +38,12 @@ header {
 
 .search {
 	width: 30%;
-	margin: 0 0 3% 10%;
+	margin: 7% 0 3% 10%;
 }
 
-input {
-	width: 25%;
-	margin: 0 2% 3% 25%;
+.connect {
+	width: 37%;
+	margin: 0 0 0 6%;
 }
 
 /*-------------------------------MAIN---------------------------------*/
@@ -69,3 +69,4 @@ section div h2 ,p {
 	display: inline-block;
 	margin: 0 2% 0 1%
 }
+
