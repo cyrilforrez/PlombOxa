@@ -71,3 +71,84 @@ table, th, td {
 	display: inline-block;
 	margin: 0 2% 0 1%
 }
+
+/*-------------------------------Ecran Tablette 768x1024--------------------*/
+
+@media (min-width: 768px ){
+
+/*--------------------------------Header-------------------------------------------*/
+
+	.logo {
+		display: flex;
+		margin: 10%;
+		width: 100px;
+		
+	}
+
+		i.fa-bars, i.fa {
+		display: none;
+	}
+
+	header { 
+		width: 100%;
+		height: 130px;
+		background-image: none;
+	}
+
+	header div {
+		width: 14%;
+		display: inline-block;
+	}
+
+	h1 {
+		display: inline-block;
+		margin: 2% 20%;
+		position: relative;
+		bottom: 35%
+	}
+
+	.search {
+		position: relative;
+		left: 35%;
+		bottom: 41%;
+	}
+
+	input {
+		position: relative;
+		left: 7%;
+		bottom: 85%;
+		width: 20%;
+	}
+
+	/*------------------------------------------------NAVBAR---------------------------------------*/
+
+	nav {
+		display: flex;
+	}
+
+	nav ul {
+		background-color: yellow;
+		width: 100%;
+	}
+
+	nav ul li {
+		width: 21%;
+		display: inline-block;
+	}
+
+	/*-----------------------------------------MAIN---------------------------------------------------*/
+
+	table {
+		width: 95%;
+		height: 150px;
+		border: 3px solid black;
+	}
+
+	/*-----------------------------------------------------FOOTER-------------------------------------*/
+
+	.azerti {
+		position: relative;
+		left: 40%;
+	}
+
+}
