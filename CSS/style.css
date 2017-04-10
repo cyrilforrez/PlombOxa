@@ -70,3 +70,90 @@ section div h2 ,p {
 	margin: 0 2% 0 1%
 }
 
+/*-------------------------------Ecran Tablette 768x1024--------------------*/
+
+@media (min-width: 768px ){
+
+/*--------------------------------Header-------------------------------------------*/
+
+	.logo {
+		display: flex;
+		margin: 10%;
+		width: 100px;
+	}
+	
+	header { 
+		width: 100%;
+		height: 130px;
+		background-image: none;
+	}
+
+	i.fa-bars, i.fa {
+		display: none;
+	}
+
+	header div {
+		width: 25%;
+		display: inline-block;
+	}
+
+	h1 {
+		display: inline-block;
+		margin: 2% 8%;
+		position: relative;
+		bottom: 10%
+	}
+
+	.search {
+		position: relative;
+		left: 24%;
+		bottom: 48%;
+	}
+
+	.connect {
+		position: relative;
+		left: 25%;
+		bottom: 75%;
+		width: 20%;
+	}
+
+/*------------------------------------------------NAVBAR---------------------------------------*/
+
+	nav {
+		display: flex;
+	}
+
+	nav ul {
+		background-color: yellow;
+		width: 100%;
+	}
+
+	nav ul li {
+		width: 21%;
+		display: inline-block;
+	}
+
+	/*----------------------------------------------MAIN----------------------------------------------*/
+
+	.p1 {
+		width: 52%;
+		display: inline-block;
+	}
+
+	.p2 {
+		margin: 3%;
+	}
+
+	.plombimg {
+		width: 40%;
+}
+
+/*------------------------------------------------FOOTER---------------------------------------------*/
+
+	.azerti {
+		position: relative;
+		left: 40%;
+	}
+
+
+}
