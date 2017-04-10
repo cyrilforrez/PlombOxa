@@ -45,3 +45,27 @@ input {
 	width: 25%;
 	margin: 0 2% 3% 25%;
 }
+
+/*-------------------------------MAIN---------------------------------*/
+
+.plombimg {
+	width: 80%;
+	margin: 3%;
+}
+
+section div h2 ,p {
+	margin: 2% 3% ;
+}
+
+/*-------------------------------FOOTER--------------------------------*/
+
+.azerti {
+	display: inline-block;
+	margin: 0 4% 0 0;
+
+}
+
+.azert {
+	display: inline-block;
+	margin: 0 2% 0 1%
+}
