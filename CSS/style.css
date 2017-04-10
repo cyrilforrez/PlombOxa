@@ -11,6 +11,7 @@ footer {
 /*------------------------Ecran smartphone 360x640---------------------*/
 
 /*-------------------------HEADER---------------------------*/
+
 nav {
 	display: none;
 }
@@ -31,26 +32,24 @@ h1 {
 }
 
 header {
-	height: 135px;
-	background-repeat: no-repeat;
-	background-image: url(../img/logo.png)
+	background-image: url(../img/logo2.jpg)
 }
 
 .search {
 	width: 30%;
-	margin: 7% 0 3% 10%;
+	margin: 0 0 3% 10%;
 }
 
-.connect {
-	width: 37%;
-	margin: 0 0 0 6%;
+input {
+	width: 25%;
+	margin: 0 2% 3% 25%;
 }
 
 /*-------------------------------MAIN---------------------------------*/
 
-.plombimg {
-	width: 80%;
-	margin: 3%;
+.piscineimg {
+	width: 60%;
+	margin-left: 2%;
 }
 
 section div h2 ,p {
@@ -69,6 +68,8 @@ section div h2 ,p {
 	display: inline-block;
 	margin: 0 2% 0 1%
 }
+
+
 
 /*-------------------------------Ecran Tablette 768x1024--------------------*/
 
@@ -93,27 +94,27 @@ section div h2 ,p {
 	}
 
 	header div {
-		width: 25%;
+		width: 14%;
 		display: inline-block;
 	}
 
 	h1 {
 		display: inline-block;
-		margin: 2% 8%;
+		margin: 2% 20%;
 		position: relative;
-		bottom: 10%
+		bottom: 35%
 	}
 
 	.search {
 		position: relative;
-		left: 24%;
-		bottom: 48%;
+		left: 35%;
+		bottom: 41%;
 	}
 
-	.connect {
+	input {
 		position: relative;
-		left: 25%;
-		bottom: 75%;
+		left: 7%;
+		bottom: 85%;
 		width: 20%;
 	}
 
@@ -133,18 +134,10 @@ section div h2 ,p {
 		display: inline-block;
 	}
 
-	/*----------------------------------------------MAIN----------------------------------------------*/
+/*----------------------------------------------MAIN----------------------------------------------*/
 
-	.p1 {
-		width: 52%;
-		display: inline-block;
-	}
 
-	.p2 {
-		margin: 3%;
-	}
-
-	.plombimg {
+	.piscineimg {
 		width: 40%;
 }
 
@@ -156,4 +149,48 @@ section div h2 ,p {
 	}
 
 
+}
+
+/*-----------------------------------------Ecran desktop 980x1280--------------------------------------*/
+
+@media (min-width: 980px ){
+
+/*---------------------------------------HEADER------------------------------------------------------------------*/
+
+	.search {
+		left: 35%;
+		bottom: 50%;
+	}
+
+/*--------------------------------------MAIN-----------------------------------------*/
+
+	section div {
+		display: inline-block;
+		width: 50%;
+		position: relative;
+		bottom: 25%;
+	}
+
+	.piscineimg {
+		margin-top: 5%;
+	}
+
+/*------------------------------------FOOTER----------------------------------------------------------*/
+
+	.azert ul li {
+		display: inline-block;
+	}
+
+	.azerti ul li {
+		display: inline-block;
+	}
+	
+.azerti {
+		position: relative;
+		left: 40%;
+	}
+	
+	footer {
+		width: 100%;
+	}
 }
