@@ -50,13 +50,14 @@ input {
 /*--------------------------------MAIN------------------------------------*/
 
  table {
-    border-collapse: collapse;
+    	border-collapse: collapse;
         margin: 15% auto;
+		width: 90%;
 }
 
 
 table, th, td {
-    border: 1px solid black;
+    	border: 1px solid black;
 }
 
 /*-------------------------------FOOTER--------------------------------*/
@@ -144,6 +145,14 @@ table, th, td {
 		border: 3px solid black;
 	}
 
+	.Montant {
+	width: 40%;
+	position: relative;
+	position: relative;
+	left: 58%;
+	bottom: 16%;
+}
+
 	/*-----------------------------------------------------FOOTER-------------------------------------*/
 
 	.azerti {
@@ -163,6 +172,16 @@ table, th, td {
 		left: 35%;
 		bottom: 50%;
 	}
+
+/*---------------------------------------------MAIN--------------------------------------------------------------*/
+
+.Montant {
+	width: 40%;
+	position: relative;
+	position: relative;
+	left: 58%;
+	bottom: 16%;
+}
 
 /*------------------------------------FOOTER----------------------------------------------------------*/
 
