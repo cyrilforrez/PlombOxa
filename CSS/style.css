@@ -53,7 +53,7 @@ input {
 }
 
 section div h2 ,p {
-	margin: 2% 3% ;
+	margin: 2% 3%  ;
 }
 
 /*-------------------------------FOOTER--------------------------------*/
@@ -137,7 +137,7 @@ section div h2 ,p {
 /*----------------------------------------------MAIN----------------------------------------------*/
 
 
-	.piscineimg {
+	.plombimg {
 		width: 40%;
 }
 
@@ -166,12 +166,14 @@ section div h2 ,p {
 
 	section div {
 		display: inline-block;
-		width: 50%;
+		width: 100%;
 		position: relative;
 		bottom: 25%;
 	}
 
-	.piscineimg {
+	section 
+
+	.plombimg {
 		margin-top: 5%;
 	}
 
